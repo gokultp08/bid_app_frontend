@@ -1,3 +1,7 @@
+DOCKER BUILD
+docerk build -t bid_app_ui .
+docker run --name bid_app_ui_container -p 5000:5000 -d bid_app_ui
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
